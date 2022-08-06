@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+    .section {
+      @apply py-[50px] lg:py-[70px];
+    }
+    .title {
+      @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
+    }
+    .subtitle {
+      @apply text-[18px]  leading-relaxed mb-5 lg:mb-9;
+    }
+  }
+  .margin{
+    margin: 1%;
+  }
+  .parallel{
+    background: url('https://www.mentegoz.com/img/banner/bg9.jpg')
+    repeat fixed 100%;
+  }
+  .parallel-inenr{
+    padding-top: 9%;
+    padding-bottom: 7%;
+  }
